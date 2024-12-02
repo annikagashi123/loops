@@ -1,0 +1,38 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+
+div:hover {
+    background-color: black;
+    transform: translate(42px, 18px);
+}
+input:focus{
+    background-color: aqua;
+}
+p:hover{
+    background-color: blue;
+}
+p::before{
+    content: "beforee";
+    background-color: pink;
+}
+p::after{
+    content: "somethingg";
+    background-color: pink;
+}
+p::first-letter{
+    font-size: 40px;
+}
+p::first-line{
+    text-decoration: underline;
+}
+ul li::marker{
+    color: blueviolet;
+}
+p::selection{
+    background-color: brown;
+    font-size: 50px; 
+    /* spo del fonti */
+}
